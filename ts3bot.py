@@ -6,6 +6,8 @@ from slackclient import SlackClient
 import datetime as dt
 
 from credentials import *
+import sys
+sys.stdout.buffer.write(chr(9986).encode('utf8'))
 
 def main():
     """main() will connect to slack and ts3 and then initialize the main loop"""
