@@ -8,7 +8,7 @@ import datetime as dt
 from credentials import *
 
 # slack connection
-slack = SlackClient("xoxb-239796286759-oxvPN7PSTvy2udNsnFeC3ox1")
+slack = SlackClient(apiToken)
 
 # ts3 connection
 conn = ts3.TS3Server(ts_ip, query_port)
