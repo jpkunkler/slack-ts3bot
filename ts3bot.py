@@ -1,13 +1,11 @@
 import re
 import time
-import ts3
-import json
-from slackclient import SlackClient
 import datetime as dt
+import json
+import ts3
+from slackclient import SlackClient
 
 from credentials import *
-import sys
-sys.stdout.buffer.write(chr(9986).encode('utf8'))
 
 def main():
     """main() will connect to slack and ts3 and then initialize the main loop"""
